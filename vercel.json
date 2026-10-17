@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/dashboard/index.html" },
+    { "source": "/css/(.*)", "destination": "/dashboard/css/$1" },
+    { "source": "/js/(.*)", "destination": "/dashboard/js/$1" },
+    { "source": "/(.*)", "destination": "/dashboard/$1" }
+  ]
+}
